@@ -1,0 +1,16 @@
+redis;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;Redis est un SGBD clé-valeur mémoire;vrai;faux;;;1
+2;Redis ne fonctionne que sur Unix;vrai;faux;;;1
+3;Une Base de Données Redis est stockée dans un fichier nommé ?;nomDeBD.rdb c'est l'administrateur qui donne le nom du fichier, pas l'extension;dump.rdb;rdb.dat;;2
+4;Toute la base de données Redis est aussi stockée en mémoire;vrai;faux;;;1
+5;La BD Redis est mémoire et par défaut est stockée sur le disque dur toutes les minutes;vrai;faux;;;2
+6;Tous les types de Redis sont cités dans cette liste : String, List, Set, Hash, Bitmap et HyperLogLogs;vrai;faux;;;2
+7;Les membres d'une List Redis sont obligatoirement des Strings;vrai;faux;;;1
+8;L'affectation d'une valeur à une clé Redis de type String utilise l'instruction setKey(clé, valeur);vrai;faux;;;2
+9;Une valeur dans un SET Redis est unique;vrai;faux;;;1
+10;Quelle est la commande qui permet d'ajouter une valeur dans un SortedSet de Redis ?;ZINSERT ensemble indice valeur;ZADDLAST ensemble indice valeur;ZADD ensemble indice valeur;;3
+11;Quelle est la commande qui permet d'ajouter une paire dans un Hash de Redis ?;HADD nomDuHash clé valeur;HSET nomDuHash clé valeur;HINSERT nomDuHash clé valeur;;2
+12;Quelle est la commande qui permet d'afficher le nombre d'éléments d'une liste de Redis ?;GETLEN liste;LLEN liste;LLENGTH liste;;2
+13;Quelle est la commande qui permet de supprimer le dernier élément d'une liste de Redis ?;REMPOP liste;RPOP liste;DELLAST liste;;2
+14;Quelle est la commande qui permet de lister toutes les clés de Redis ?;GET ALL KEYS;keys *;KEYS ALL;;2
+15;Pour vider une base de données Redis il faut utiliser la commande;DROP nom_de_bd;DELALL;FLUSHALL;;3

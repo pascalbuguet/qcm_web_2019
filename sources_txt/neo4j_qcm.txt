@@ -1,0 +1,11 @@
+neo4j;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;Neo4J est un SGBD;Document;Colonne;Graphe;;3
+2;Lequel de ces objets n'existe pas dans Neo4J ?;Noeud;Colonne;Lien;;2
+3;Laquelle de ces applications utilise Neo4J ?;Réseau Social;Virement bancaire;Blog;;1
+4;Dans Neo4J les relations sont créées à l'exécution des requêtes ?;oui;non;;;2
+5;Dans Neo4J une propriété ne peut être attachée que sur un noeud ?;oui;non;;;2
+6;Comment s'appelle le langage de requête de Neo4J ?;SQL;DQL;CQL;;3
+7;Peut-on facilement fragmenter un graphe Neo4j sur plusieurs serveurs ?;oui;non;;;2
+8;Avec Neo4j la commande SET permet de …;Ajouter une propriété à un objet;Définir une variable d'environnement;Définir une option de configuration;;1
+9;Pour sélectionner des données avec Neo4J il faut utiliser la commande suivante …;SELECT;MATCH;RETRIEVE;;2
+10;Laquelle de ces fonctions d'agrégation n'existe pas dans Neo4J ?;AVG;COLLECT;STD;;3
