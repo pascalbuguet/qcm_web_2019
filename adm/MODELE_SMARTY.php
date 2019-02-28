@@ -1,7 +1,7 @@
 <?php
 
 /*
- * smarty_modele_ctrl.php
+ * MODELE_SMARTY.php
  */
 
 require_once '../daos/Connexion.php';
@@ -11,16 +11,13 @@ $smarty = new Smarty;
 $lsMessage = "";
 
 try {
-    
+    $lsMessage = "OK";
 } catch (Exception $exc) {
-    echo $exc->getTraceAsString();
+    $lsMessage = $exc->getTraceAsString();
 }
 
 
-
 $smarty->assign("message", $lsMessage);
+$smarty->display('MODELE_SMARTY.tpl');
 
-$smarty->display('_ihm.tpl');
-
-//include './bd_2_txt_ihm.php';
 ?>

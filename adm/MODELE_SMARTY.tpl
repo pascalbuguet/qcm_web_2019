@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <link href="../libs/bootstrap/css/bootstrap.css" rel="stylesheet">
-        <title>new_qcm_ihm</title>
+        <title>MODELE_SMARTY</title>
     </head>
 
     <body>
         <div class='container'>
 
             {include file='menu.tpl'}
-            <h1>New QCM</h1>
+            <h1>MODELE_SMARTY</h1>
 
             <section class='row'>
                 <form class="form-horizontal" role="form" action="" method="GET">
