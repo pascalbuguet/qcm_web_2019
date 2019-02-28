@@ -1,0 +1,14 @@
+C 		 	30 questions
+Python	 	30 questions
+SQL 		50 questions
+SQL BigData 25 questions
+
+Java		0 questions (30)
+JavaScript	0 questions (30)
+PHP			0 questions (30)
+
+BigData Généralités		10 questions
+BigData	Neo4J			10 questions	
+BigData	Redis			15 questions	
+BigData MongoDB			30 questions
+BigData Cassandra		10 questions

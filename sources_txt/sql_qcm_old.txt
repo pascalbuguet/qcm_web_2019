@@ -1,0 +1,51 @@
+SQL;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;Le R de SGBDR signifie;Que les tables sont pour la plupart reliées entre elles;Que le SGBD implémente SQL;Que le SGBD implémente un langage de manipulation qui implémente l'algèbre relationnelle;;3
+2;SQL signifie;Structured reQuest Language;Structured Query Language;Sequential Query Language;;2
+3;SQL est divisible en 4 sous-langages (sigles français);LCD, LMD, LCBD, LCT;LDD, LGD, LCD, LCT;LDD, LMD, LCD, LCT;;3
+4;LDD signifie;Langage de Définition de Données;Langage de Données Définitives;Langage Définitionnel des Données;;1
+5;LMD signifie;Langage de Managment de Données;Langage de Manipulation de Données;Langage de Modification de Données;;2
+6;LCD signifie;Langage de Définition de Données;Langage de Contraintes des Données;Langage de Contrôle de Données;;3
+7;LCT signifie;Langage de Contrôle des Transactions;Langage de Contraintes Temporel;Langage de Contraintes Transactionnelles;;1
+8;Quel ordre de création d'une base de données est correct ?;CREATE DATABASE IF NOT EXISTS base_exos DEFAULT SET OF CHARACTER  utf8 COLLATE utf8_general_ci;CREATE DATABASE base_exos IF NOT EXISTS;CREATE DATABASE IF NOT EXISTS base_exos DEFAULT CHARACTER SET utf8;;3
+9;Quel ordre de création d'un index est correct ? La table nommée 'villes' possède les colonnes suivantes : id_ville, nom_ville, site, photo, id_pays;ALTER TABLE villes ADD INDEX idx_villes_nom_ville (nom_ville), OTHER INDEX i_villes_site(site);ALTER TABLE villes ADD INDEX idx_villes_nom_ville (nom_ville), ADD INDEX i_villes_site(site);CREATE MULTIPLE INDEX idx_villes ON villes(nom_ville, site);;2
+10;Quelle syntaxe de création d'une view est correct ?;CREATE OR REPLACE VIEW nom_de_vue AS SELECT * | colonnes FROM nom_de_table [WITH condition] [AND WITH CHECK OPTION];CREATE OR REPLACE VIEW nom_de_vue AS SELECT * | colonnes FROM nom_de_table [WHERE condition] [WITH CHECK OPTION];DROP AND RECREATE VIEW nom_de_vue AS SELECT * | colonnes FROM nom_de_table [WHERE condition] [WITH CHECK OPTION];;2
+11;1e Forme normale;Tous les attributs de la relation sont élémentaires et il existe un attribut identifiant.;Tous les attributs de la relation sont élémentaires.;Une relation possède un attribut identifiant.;;1
+12;2e Forme normale;Chaque attribut de la relation dépend de tout l'identifiant ou d'une partie.;Le 2e attribut et les suivants dépendent du 1e attribut de la relation;Tout attribut dépend de l'identifiant par une dépendance fonctionnelle (DF) élémentaire.;;3
+13;3e Forme normale;Tout attribut de la relation doit dépendre de l'attribut identifiant par une DF indirecte;Tout attribut de la relation doit dépendre de l'attribut identifiant par une DF directe;Tout attribut doit dépendre de l'attribut identifiant par une DF multi-valuée;;2
+14;Boyce Codd Forme normale;Tout élément de l'identifiant d'une relation est indépendant d'un attribut;Tout élément de l'identifiant d'une relation est dépendant d'un attribut;Tous les éléments de l'identifiant d'une relation sont aussi des Foreign Keys;;1
+15;Une Primary Key est :;Not Null, unique, auto incrémentée, indexée;Not Null, unique, indexée;Not Null, unique,numérique, indexée;;2
+16;Une clé étrangère doit être du même type que la colonne qu'elle référence;oui;non;;;1
+17;Comment créer une clé alternative;PRIMARY KEY;ALTERNATIVE KEY;INDEX UNIQUE;;3
+18;Lequel des ordres SQL SELECT est incorrect ? La table est nomée 'produits' et contient les colonnes suivantes : id_produit, designation, prix, stock, categorie;SELECT designation, AVG(prix), categorie FROM produits GROUP BY categorie;SELECT AVG(prix), categorie FROM produits GROUP BY categorie;;SELECT designation, AVG(prix), categorie FROM produits GROUP BY categorie, designation;;;1
+19;Laquelle de ces clauses ne tire pas partie de l'index sur la colonne cp;ORDER BY cp;WHERE cp LIKE '75%';WHERE LEFT(cp,2) = '75';;3
+20;SELECT c.name FROM customers as c INNER JOIN orders as o ON c.id=o.customer_id Cette requête retourne;L'ensemble des clients;Une ligne par client;Une ligne par commande;;3
+21;Quel type de jointure permet d'obtenir la liste des personnes possédant ou ne possédant pas de ligne correspondante dans une table des téléphones ?;NATURAL JOIN;LEFT JOIN;INNER JOIN;;2
+22;Une auto theta-jointure;est une jointure sur la même table avec une condition d'égalité;est une jointure sur la même table sans condition de jointure;est une jointure sur la même table avec une condition d'inégalité;;3
+23;Que veut dire ACID ?;Atomicity Consistency Isilation Durability;Access Consistency Isolation Data ;Access Constraint Index Data;;1
+24;Quelle commande annule une transaction ?;CANCEL;ROLLBACK;COMMIT;;2
+25;CRUD est traduit en SQL par les commandes suivantes :;CREATE, SELECT, UPDATE, DELETE;CREATE, READ, UPDATE, DROP;INSERT, SELECT,  UPDATE, DELETE;;3
+26;Une clef étrangère doit faire l'objet d'une contrainte d'unicité;oui;non;;;2
+27;Une contrainte de clé primaire se traduit par;NOT NULL;Un type numérique auto incrémenté;PRIMARY KEY;;3
+28;Quelle serait la clé primaire d'une table d'association ?;Une colonne numérique auto incrémentée;Une clé composée de toutes les clés étrangères;Une table d'association n'a pas besoin de clé primaire;;2
+29;Une table peut ne pas avoir de clé primaire ?;oui;non;;;1
+30;MySQL autorise l'insertion de plusieurs enregistements en même temps;oui;non;;;1
+31;Un ordre INSERT ne nécessite pas de lister les colonnes;oui;non;;;2
+32;Une VIEW est;Un ordre SQL quelconque stocké dans la BD;Un ordre SELECT stocké dans la BD;;;2
+33;Est-il possible de supprimer des données à partir d'une view qui contient un ordre SELECT ?;Oui, à condition que le SELECT soit mono-table;Oui, à condition que dans le SELECT de jointure toutes les colonnes soient présentes;Non, c'est impossible;;1
+34;Est-il possible de filtrer les données à insérer via un VIEW ?;oui;non;;;1
+35;La commande DELETE FROM nom_de_table supprime tous les enregistrements d'une table et réinitialise le compteur de la clé primaire si c'est un int auto-increment;oui;non;;;2
+36;La commande TRUNCATE nom_de_table supprime la partie de la table à partir de l'enregistrement spécifié dans la clause WHERE;oui;non;;;2
+37;Une table peut avoir plusieurs clés primaires à condition qu'aucune des colonnes ne soient de type int auto-incrément;oui;non;;;2
+38;Pour créer un index sur plusieurs colonnes il faut que les différentes colonnes soient de mêmes types;oui;non;;;2
+39;Pour réaliser une jointure il faut que les colonnes de jointure soient indexées;oui;non;;;2
+40;Une procédure stockée MySQL est ;un mélange de code SQL stocké sur le serveur et de code procédural stocké dans une application cliente;du code procédural stocké sur un serveur et associé à des requêtes stockées;un mélange de code SQL et de code procédural stocké sur un serveur;;3
+41;Une fonction stockée MySQL accepte des paramètres IN, OUT et INOUT;oui;non;;;1
+42;Une fonction stockée MySQL accepte des paramètres IN, OUT;oui;non;;;2
+43;Un paramètre de direction IN correpond à ;un passage de paramètre par valeur ;un passage de paramètre par référence;;;1
+44;Les types des paramètres des procédures sont exactement les mêmes que ceux des définitions des tables;oui;non;;;2
+45;Un clé étrangère est nécessaire pour effectuer une jointure;oui;non;;;2
+46;Une table peut posséder une Foreign Key sur plusieurs colonnes;oui;non;;;1
+47;Les tables de moteur MyISAM gèrent les clés étrangères et les transactions;oui;non;;;2
+48;Les tables de moteur InnoBD gèrent les clés étrangères et les transactions;oui;non;;;1
+49;Un trigger est un déclencheur;oui;non;;;1
+50;Les types de triggers sont les suivants;BeforeInsert, BeforeDelete, BeforeUpdate, AfterInsert, AfterDelete, AfterUpdate;BeforeInsert, BeforeDelete, BeforeUpdate, BeforeSelect, AfterInsert, AfterDelete, AfterUpdate, AfterSelect;;;1

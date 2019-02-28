@@ -1,0 +1,31 @@
+mongodb;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;MongoDB est un SGBD;Paire clé/valeur;Document;Colonne;;2
+2;MongoDB stocke ses données au format;BSON;JSON;XML;;1
+3;Quelle commande affiche la liste des bases de données ?;show databases;show dbs;display dbs;;2
+4;MongoDB stocke les données dans ;des tables;des dossiers;des collections;;3
+5;Les bases de données MongoDB ont un schéma ;dynamique;statique;volatile;;1
+6;MongoDB supporte les triggers ?;oui;non;;;2
+7;MongoDB supporte les écritures concurrentes ?;oui;non;;;1
+8;Comment créer une base de données nommée myBase avec MongoDB ?;CREATE DATABASE myBase;NEW myBase;USE myBase;;3
+9;Que contient une collection de MongoDB ?;des documents;des tables;des colonnes;;1
+10;Laquelle de ces requêtes est correcte avec MongoDB ?;db.livres.find({});db.livres.fetchAll();db.livres.select({});;1
+11;Avec MongoDB pour trier un résultat par prix il faut utiliser la syntaxe suivante;orderBy(prix);order({prix});sort({prix:1});;3
+12;Avec MongoDB pour limiter une requête aux 3 premiers résultats il faut utiliser la syntaxe suivante;limit(3);limit(0,3);max(3);rows(3);;1
+13;Quel est le port par défaut du serveur MongoDB ?;3306;12701;27017;;3
+14;Map reduce est une technique;de compression;de géolocalisation;d'agrégation;;3
+15;Avec MongoDB dans une requête de sélection, la projection est;en premier argument;en second argument;en troisième argument;;2
+16;Avec MongoDB les opérations d'écriture sont atomiques au niveau;du document;de la collection;de la table;;1
+17;Généralement, les données gérées par MongoDB sont;Normalisées;Dénormalisées;Relationnelles;;2
+18;Avec MongoDB quel champ est utilisé comme identifiant unique ?;_id;_uid;_uuid;;1
+19;Quelle est la commande permettant d'ajouter un élément à une collection MongoDB ?;add;create;insert;;3
+20;Laquelle de ces méthodes retourne un curseur avec Avec MongoDB ?;find;fetch;skip;;1
+21;Quelle est la syntaxe correcte pour extraire un document MongoDB via son _id ?;db.collection.find({"_id" : "id"}) ;db.collection.find({"_id" : GetId("id")}) ;db.collection.find({"_id" : ObjectId("id")}) ;;3
+22;Quelle est la syntaxe correcte pour récupérer le nombre de documents d'une collection MongoDB ?;db.collection.count();db.collection.size();db.collection.number();;1
+23;Quelle est la commande qui permet de renommer une collection MongoDB ?;db.nomDeLaCollection.renameCollection("nouveauNom");db.nomDeLaCollection.rename("nouveauNom");db.collections.renameCollection("ancienNom", "nouveauNom");;1
+24;Quelle est la commande qui permet de supprimer une collection MongoDB ?;db.NomDeCollection.drop();db.NomDeCollection.delete();db.NomDeCollection.remove();;2
+25;Que fait cette commande MongoDB ? db.personnes.find({ }).projection( { _id : 0, nom : 1, prenom : 1} ) ?;Elle affiche tous les documents et dans ces documents affiche l'_id (qui ne sera pas modifiable), le nom et le prénom;Elle affiche tous les documents et dans ces documents affiche le nom et le prénom;Elle affiche tous les documents et dans ces documents affiche un zéro à la place de l'_id, le nom et le prénom;;2
+26;Que fait cette instruction MongoDB ? db.personnes.find().sort( { nom: -1 } ) ?;Elle trie la collection sans afficher le nom;Elle ne trie pas, les collections sont potentiellement trop volumineuses;Elle trie la collection sur le nom en ordre descendant;;3
+27;Avec MongoDB quelle est la bonne syntaxe pour afficher les noms des personnes sans doublon ?;db.personnes.distinct( 'nom' );db.personnes.find( 'nom' ).distinct();db.personnes.find( 'distinct nom' );;1
+28;Avec MongoDB dans un document de la collection 'personnes' ayant les attributs _id, nom, prenom, age, email, que va faire cette instruction ? db.personnes.update( { nom: "Milou" }, { prenom: "Dog" } ) ?;Modifier le prénom de Milou;Modifier le prénom de Milou et supprimer les attributs nom, age, email;Modifier le nom de la personne dont le prénom est "Dog";;2
+29;Avec MongoDB que font ces 2 instructions ? db.users.update({ nom:"Roux" },{ $push: { roles: {codeRole:"1"} } } ) puis db.users.update({ nom:"Roux" },{ $pull: { roles: {codeRole:"1"} } } ) ?;Successivement elles créent et suppriment un élément d'un tableau de rôles dans un objet de la collection 'users';Successivement elles créent un élément dans un tableau de rôles au début du tableau puis à la fin du tableau dans un objet de la collection 'users';Successivement elles suppriment et créent un élément d'un tableau de rôles dans un objet de la collection 'users';;1
+30;Avec MongoDB quelle est la commande à utiliser pour créer un index unique dans une collection nommée 'pays' ayant des documents avec un attribut nommé 'nomPays' ?;db.pays.createUniqueIndex( { nomPays: 1 }, { name :"idxUniqueNomPays"} );db.pays.createIndex( { nomPays: 1 }, { name :"idxUniqueNomPays", unique :true } );db.pays.createUniqueIndex( { nomPays: 1 }, { indexName :"idxUniqueNomPays"} );;2

@@ -1,0 +1,7 @@
+1 - N° question
+2 - La question
+3 - Réponse 1
+4 - Réponse 2
+5 - Réponse 3
+6 - (Eventuellement réponse 4)
+7 - Bonne réponse

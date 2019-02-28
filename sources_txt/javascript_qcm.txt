@@ -1,0 +1,31 @@
+JavaScript;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;JavaScript est-il un langage serveur ou client ?;Serveur;Client;Les deux;;3
+2;JavaScript est-il un langage fortement typé ?;oui;non;;;2
+3;JavaScript est-il un langage compilé ?;oui;non;;;2
+4;Le langage JavaScript est sensible à la casse ?;oui;non;;;1
+5;Un procédure JavaScript est déclarée avec le mot réservé suivant :;procedure;function;sub;;2
+6;Une instruction JavaScript se termine toujours par un point-virgule ?;oui;non;;;2
+7;Pour gérer une date en JavaScript il faut utiliser la classe Date ?;oui;non;;;1
+8;La fonction alert('Texte') affiche le Texte dans une boîte de dialogue;oui;non;;;1
+9;Les tableaux JavaScript sont immuables : leur taille est définie lors de leur déclaration et ne change pas;oui;non;;;2
+10;La méthode length() de la classe String permet de récupérer la longueur de la chaîne de caractères en JS;oui;non;;;2
+11;La méthode split() de la classe String  en JS explose une chaîne de caractères dans un tableau ?;oui;non;;;1
+12;Le premier indice d'une chaîne de caractères est 1 en JS ?;oui;non;;;2
+13;var T = new Array() déclare un tableau  en JS ?;oui;non;;;1
+14;var T = new Array() déclare un tableau à clés  en JS ?;oui;non;;;1
+15;Une clé d'un tableau à clé est toujours une chaîne de caractères  en JS;oui;non;;;1
+16;T["clé"] = valeur permet d'ajouter une paire clé/valeur en JS;oui;non;;;1
+17;T["clé"] = valeur permet de modifier une paire clé/valeur en JS;oui;non;;;1
+18;On peut boucler sur un tableau à clés avec une boucle while en JS;oui;non;;;2
+19;var variable = T["clé"] permet de récupérer la valeur d'une clé en JS;oui;non;;;1
+20;for(var cle in tableau) … tableau[cle] … permet de parcourir un tableau à clés  en JS;oui;non;;;1
+21;La boucle FOR permet de boucler sur une collection avec une variable de contrôle de type String  en JS;oui;non;;;2
+22;L'instruction window.onload = init() permet d'exécuter une fonction nommée init au chargement du document HTML;oui;non;;;2
+23;La méthode onfocus permet de coder sur la prise de focus;oui;non;;;1
+24;La méthode onlostfocus permet de coder sur la perte de focus;oui;non;;;2
+25;L'instruction document.getElementById('element').value permet de récupérer la valeur d'un élément de formulaire;oui;non;;;1
+26;L'instruction document.getElementById('paragraphe').innerHTML permet de récupérer le texte d'un paragraphe;oui;non;;;1
+27;document.getElementById("element").style.attribut = "valeur" permet de modifier le CSS d'un élément;oui;non;;;1
+28;document.getElementById("saisie").style.Back-groundColor = "black" colorise en noir le fond de l'élément identifié par 'saisie';oui;non;;;2
+29;setTimeOut() permet d'exécuter une fonction au bout de n millièmes de secondes;oui;non;;;1
+30;Il est possible de créer un cookie avec JavaScript ?;oui;non;;;1

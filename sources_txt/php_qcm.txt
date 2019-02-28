@@ -1,0 +1,31 @@
+PHP;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;PHP est-il un langage serveur ou client ?;Serveur;Client;Les deux;;1
+2;PHP est-il un langage fortement typé ?;oui;non;;;2
+3;Une procédure PHP est déclarée avec le mot réservé suivant :;procedure;function;sub;;2
+4;Une instruction PHP se termine toujours par un point-virgule ?;oui;non;;;2
+5;Le langage PHP est sensible à la casse ?;oui;non;;;1
+6;Pour gérer une date en PHP il faut utiliser la classe Date ?;oui;non;;;2
+7;Les tableaux PHP sont immuables : leur taille est définie lors de leur déclaration et ne change pas;oui;non;;;2
+8;La méthode length() de la classe String permet de récupérer la longueur de la chaîne de caractères;oui;non;;;2
+9;La méthode split() de la classe String explose une chaîne de caractères dans un tableau ?;oui;non;;;2
+10;Le premier indice d'une chaîne de caractères est 1 ?;oui;non;;;2
+11;var T = new Array() déclare un tableau ?;oui;non;;;2
+12;var T = new Array() déclare un tableau à clés ?;oui;non;;;2
+13;Une clé d'un tableau à clé est toujours une chaîne de caractères;oui;non;;;1
+14;T["clé"] = valeur permet d'ajouter une paire clé/valeur ;oui;non;;;1
+15;T["clé"] = valeur permet de modifier une paire clé/valeur ;oui;non;;;1
+16;On peut boucler sur un tableau à clés avec une boucle while;oui;non;;;2
+17;variable = T["clé"] permet de récupérer la valeur d'une clé;oui;non;;;1
+18;foreach(tableau as valeur) … tableau[cle] … permet de parcourir un tableau à clés;oui;non;;;1
+19;foreach(tableau as cle => valeur) … tableau[cle] … permet de parcourir un tableau à clés et de récupérer les clés et les valeurs;oui;non;;;1
+20;La boucle FOR permet de boucler sur une collection avec une variable de contrôle de type String;oui;non;;;2
+21;Pour passer un paramètre par référence il faut ajouter le caractère & devant le nom du paramètre;oui;non;;;1
+22;PHP 5 est un langage interprété;oui;non;;;1
+23;PHP 7 est un langage compilé;oui;non;;;1
+24;$_POST est une super globale qui permet de récupérer des données saisies dans un formulaire;oui;non;;;1
+25;PHP permet de gérer des variables de session avec session_start();oui;non;;;1
+26;Cette expression régulière renvoie TRUE : preg_match("@^[0-9]{5}$@", "75011");oui;non;;;1
+27;La fonction time() de PHP renvoie un timestamp en millisecondes;oui;non;;;2
+28;PHP permet de faire de la Programmation Orienté Objet ?;oui;non;;;1
+29;Il est possible de créer un cookie avec PHP ?;oui;non;;;1
+30;Par défaut la durée d'un cookie est de 60 000 millisecondes;oui;non;;;2

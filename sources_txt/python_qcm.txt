@@ -1,0 +1,31 @@
+python;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;Est-ce que le langage python peut être considéré comme un langage impératif ?;oui;non;;;1
+2;Est-ce que le langage python peut être considéré comme un langage fonctionnel ?;oui;non;;;1
+3;Est-ce que le langage python peut être considéré comme un langage objet ?;oui;non;;;1
+4;Est-ce que le langage python est faiblement typé ?;oui;non;;;2
+5;Le symbole de commentaire de ligne est;//;rem;#;;3
+6;Les commentaires de bloc sont entre;/* … */;""";;;2
+7;La commande print est une fonction ou une procédure ?;Une fonction;Une procédure;;;1
+8;Est-il possible d'écrire deux instructions sur une même ligne de code ?;oui;non;;;1
+9;Quel est le séparateur d'instructions lorsque l'on écrit 2 instructions sur la même ligne ?;dièse;Point-virgule;.;;2
+10;La fonction qui permet de saisir une valeur à la console est ;variable = read("Texte");variable = input("Texte");variable = get("Texte");;2
+11;Le code qui suit est-il correct pour utiliser la fonction math() ? from math import , print(sqrt(9));oui;non;;;2
+12;L'opérateur === permet-il de comparer 2 number ?;oui;non;;;2
+13;Si a est égal à True et b est égal à True print(a && b) affichera True;oui;non;;;2
+14;for i in range(5): permettra d'afficher les valeurs suivantes;1 à 5;0 à 5;0 à 4;;3
+15;Une liste peut être créée soit avec la fonction liste = list() soit ainsi liste = [];oui;non;;;1
+16;Pour ajouter un élément à une liste via un indice il faut utiliser la fonction insert(élément);oui;non;;;2
+17;Pour supprimer un élément dans une liste via son index on utilise la fonction liste.remove(index);oui;non;;;2
+18;Les fonctions python accepte des paramètres optionnels;oui;non;;;1
+19;Les paramètres optionnels doivent être initialisés;oui;non;;;1
+20;Cette syntaxe de déclaration d'une fonction est-elle correcte ? nomdelafonction(paramètre1 [= valeur1], paramètre2 [= valeur2], …);oui;non;;;2
+21;for i, element in enumerate(t): permet d'itérer sur une liste;oui;non;;;1
+22;int('F', 16) renvoie 10;oui;non;;;1
+23;chaine.lower() renvoie la chaîne de caractères en minuscule;oui;non;;;1
+24;chaine.len() renvoie la longueur de la chaîne de caractères;oui;non;;;2
+25;Cette instruction permettra de récupérer les clés d'un dictionnaire : for cle in dictionnaire:;oui;non;;;1
+26;Cette déclaration d'un Set est correcte : s = {valeur1, "valeur2" …};oui;non;;;1
+27;On définit ainsi une classe : public class NomDeClasse:;oui;non;;;2
+28;Cet exemple de constructeur d'une classe est-il correct ? def __init__(self, attribut1 = "", attribut2 = ""):;oui;non;;;1
+29;Cet exemple de setter pour une classe est-il correct ? def setAttribut1(self, attribut1):;oui;non;;;1
+30;Un objet est instancié avec l'opérateur new ?;oui;non;;;2

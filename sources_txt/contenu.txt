@@ -1,0 +1,17 @@
+big_data_cassandra_qcm.txt
+big_data_generalites_qcm.txt
+big_data_mongodb_qcm.txt
+big_data_neo4j_qcm.txt
+big_data_redis_qcm.txt
+big_data_sql_qcm.txt
+contenu.txt
+c_qcm.txt
+FormatDuQuestionnaire.txt
+javascript_qcm.txt
+mini_qcm.txt
+php_qcm.txt
+python_qcm.txt
+QCM_Big_Data_Lien_Google.txt
+RECAPITULATIF_LANGAGES.txt
+sql_qcm.txt
+sql_qcm_old.txt

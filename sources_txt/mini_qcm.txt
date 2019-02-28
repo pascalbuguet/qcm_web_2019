@@ -1,0 +1,11 @@
+C;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;La première édition du langage C date de ;1970;1972;1981;;2
+2;Le langage C suit le paradigme;Impératif;Objet;Prédicatif;;1
+3;La dernière norme du langage C date de ;2011;2015;2018;;1
+4;Le point d'entrée d'un programme C est la fonction main();oui;non;;;1
+5;La fonction main() renvoie;un long;un int;;;2
+6;La magnitude du type signed int est de ;-2 147 483 647 à +2 147 483 647;-32 767 à +32 767;;;2
+7;Les principaux type scalaires sont char, short, int, long, float, double;oui;non;;;1
+8;Le type string permet de gérer un tableau de char;oui;non;;;2
+9;La déclaration d'une variable suit la syntaxe suivante. Le point virgule final est omis (et ce dans toutes les instructions qui suivront);type nom_de_variable = valeur;nom_de_variable type = valeur;def type nom_de_variable = valeur;;1
+10;Tout code C qui gère des entrées/sorties doit inclure la bibliothèque stdio.h;oui;non;;;1

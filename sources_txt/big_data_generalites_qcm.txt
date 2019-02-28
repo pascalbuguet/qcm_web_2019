@@ -1,0 +1,11 @@
+big data;Question;Réponse 1;Réponse 2;Réponse 3;;Bonne réponse
+1;BigData et NoSQL sont une seule et même chose ?;oui;non;;;2
+2;NoSQL signifie NOT SQL ?;oui;non;;;2
+3;CAP signifie ?;Coherence Accuracy Performance;Consistency Availibility Partition;Calculus Agregation Partition;;2
+4;Quels sont les 3 facteurs des Big Data ?;Tuning Variety Velocity;Volume Variety Viscosity;Volume Variety Velocity;;3
+5;Que privilégie le Big data ?;La scalabilité horizontale;La scalabilité verticale;;;1
+6;Sqoop est une interface en ligne de commande qui permet de transférer des données entre des bases de données relationnelles et Hadoop;oui;non;;;1
+7;MapReduce a été inventé par …;Apache Software Foundation;Google;Microsoft;;2
+8;MapReduce signifie …;On crée une carte et on autorise un redimensionnement;On crée un Map (Clé/Valeur) et on élimine des clés par restriction (un WHERE);On répartit les traitements sur plusieurs serveurs ;;3
+9;Les bases de données NoSQL sont très adaptées à la gestion des transactions;oui;non;;;2
+10;Les bases NoSQL sont efficaces pour gérer des données …;non structurées;semi structurées;structurées;;1
